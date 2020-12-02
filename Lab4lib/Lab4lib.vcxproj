@@ -139,10 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab4lib.cpp" />
+    <ClCompile Include="body.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="motorVehicle.cpp" />
+    <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lab4lib.h" />
+    <ClInclude Include="body.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="motorVehicle.h" />
+    <ClInclude Include="person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
