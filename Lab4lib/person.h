@@ -6,8 +6,12 @@ using namespace std;
 
 class Person {
 public:
-
-private:
 	string name, adress;
 	bool allowedToDrive;
+
+
+	Person();
+	Person(string newName, string newAdress, bool isAllowedToDrive);
+	void print();
+
 };

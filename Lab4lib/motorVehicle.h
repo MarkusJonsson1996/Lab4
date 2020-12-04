@@ -5,13 +5,16 @@
 
 class MotorVehicle {
 public:
-
-
-
-private:
-	Engine myEngine;
+	Engine engine;
 	Body body;
-	Person ownser;
+	Person owner;
 	float* tireDiameter;
-	int nTires;
+	int numTires;
+
+
+	~MotorVehicle();
+	MotorVehicle();
+	MotorVehicle(Engine newEngine, Body newBody, Person newOwner, float newTireDiam[], int newNumTires);
+	void set_new_tires(float newTireDiam[], int newNumTires);
+	void print();
 };

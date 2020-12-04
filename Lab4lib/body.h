@@ -6,8 +6,10 @@ using namespace std;
 
 class Body {
 public:
-
-private:
 	string color;
-	float with, height;
+	float width, height;
+
+	Body();
+	Body(string newColor, float newWitdh, float newHeight);
+	void print();
 };
