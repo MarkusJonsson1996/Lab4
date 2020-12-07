@@ -140,15 +140,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="body.cpp" />
+    <ClCompile Include="card.cpp" />
+    <ClCompile Include="carddeck.cpp" />
     <ClCompile Include="engine.cpp" />
     <ClCompile Include="motorVehicle.cpp" />
     <ClCompile Include="person.cpp" />
+    <ClCompile Include="point2d.cpp" />
+    <ClCompile Include="polyline.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="body.h" />
+    <ClInclude Include="card.h" />
+    <ClInclude Include="carddeck.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="motorVehicle.h" />
     <ClInclude Include="person.h" />
+    <ClInclude Include="point2d.h" />
+    <ClInclude Include="polyline.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
