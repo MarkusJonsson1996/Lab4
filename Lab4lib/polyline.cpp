@@ -13,7 +13,12 @@ Polyline::Polyline(unsigned int numPoints) {
 }
 
 Point2d* Polyline::at(unsigned int index) {
-	return this->myPoints[index];
+	Point2d* retPtr;
+
+	if (index < 0 || index > this->maxPoints) retPtr = nullptr;
+	else retPtr = this->myPoints[index];
+	
+	return retPtr;
 }
 
 bool Polyline::append(Point2d& newPoint) {

@@ -14,6 +14,7 @@ Body::Body(string newColor, float newWitdh, float newHeight) {
 	width = newWitdh;
 }
 void Body::print() {
+	cout << endl << "BODY:" << endl;
 	cout << "Color: " << color << endl;
 	cout << "Heigth: " << height << endl;
 	cout << "Width: " << width << endl;

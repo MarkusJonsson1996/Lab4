@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include "engine.h"
 #include "body.h"
 #include "person.h"
@@ -18,3 +19,5 @@ public:
 	void set_new_tires(float newTireDiam[], int newNumTires);
 	void print();
 };
+
+void vehicle_editor(MotorVehicle& motorVehicle);

@@ -16,6 +16,7 @@ Person::Person(string newName, string newAdress, bool isAllowedToDrive) {
 
 }
 void Person::print() {
+	cout << endl << "PERSON" << endl;
 	cout << "Name: " << name << endl;
 	cout << "Adress: " << adress << endl;
 	cout << "Allowed to drive: ";

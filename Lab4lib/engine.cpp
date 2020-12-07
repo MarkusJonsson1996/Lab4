@@ -27,6 +27,7 @@ int Engine::my_cyl() {
 	return cyl;
 }*/
 void Engine::print() {
-	cout << "Displacement: " << displ << endl;
+	cout << endl << "ENGINE:" << endl;
+	cout <<"Displacement: " << displ << endl;
 	cout << "Num cylinders: " << cyl << endl;
 }
